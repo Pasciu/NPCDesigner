@@ -7,6 +7,8 @@
     <Nullable>enable</Nullable>
     <LangVersion>latest</LangVersion>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>none</DebugType>
+    <Deterministic>true</Deterministic>
     <NoWarn>$(NoWarn);CA1707;NU1900;NU1901;NU1902;NU1903;NU1904</NoWarn>
     <RestoreAdditionalProjectSources>
       https://nuget.bepinex.dev/v3/index.json
